@@ -9,11 +9,11 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'YourNftToken',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
-  maxSupply: 10000,
+  contractName: 'VeryCoolFrogs',
+  tokenName: 'Very Cool Frogs',
+  tokenSymbol: 'VCF',
+  hiddenMetadataUri: 'ipfs://QmYfi9rPwQamgh9rmJyKE2uiWPomKf9evVDr3KZJVdsBCB/hidden.json',
+  maxSupply: 10,
   whitelistSale: {
     price: 0.05,
     maxMintAmountPerTx: 1,
@@ -27,7 +27,7 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 5,
   },
   contractAddress: null,
-  marketplaceIdentifier: 'my-nft-token',
+  marketplaceIdentifier: 'my-nft-token-vcf',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
