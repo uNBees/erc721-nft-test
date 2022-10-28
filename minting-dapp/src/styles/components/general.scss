@@ -5,10 +5,10 @@ body {
   @apply font-sans;
 
   // Simple background with color gradient
-  @apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
-
+  //@apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
+  
   // Fullscreen background image example
-  //background-image: url('../../images/background.jpg');
+    background-image: url('../../images/background.png');
   //@apply bg-center bg-cover bg-fixed;
 }
 
