@@ -33,6 +33,7 @@ contract VeryCoolFrogs is ERC721AQueryable, Ownable, ReentrancyGuard {
     uint256 _maxSupply,
     uint256 _maxMintAmountPerTx,
     string memory _hiddenMetadataUri
+    
   ) ERC721A(_tokenName, _tokenSymbol) {
     setCost(_cost);
     maxSupply = _maxSupply;
