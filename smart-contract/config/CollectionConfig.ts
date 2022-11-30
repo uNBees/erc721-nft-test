@@ -9,7 +9,7 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'Amazing3DFrogs',
+  contractName: 'Amazing3DFrogsAA',
   tokenName: 'Amazing 3D Frogs',
   tokenSymbol: 'AMZ3D',
   hiddenMetadataUri: 'ipfs://Qmf7uYcpe8NmzUeLRK1Wkv6tfL7pMc2enPQc63BJEoTLKN/hidden.json',
@@ -26,8 +26,8 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.05,
     maxMintAmountPerTx: 5,
   },
-  contractAddress: "0x997fC5dcdAbbc1d179c602D4858A8352E385efc2",
-  marketplaceIdentifier: 'amazing-3d-frogs',
+  contractAddress: null,
+  marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
