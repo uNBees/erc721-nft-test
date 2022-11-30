@@ -10,8 +10,8 @@ const CollectionConfig: CollectionConfigInterface = {
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'Amazing3DFrogsAA',
-  tokenName: 'Amazing 3D Frogs',
-  tokenSymbol: 'AMZ3D',
+  tokenName: 'Amazing 3D Frogs AA',
+  tokenSymbol: 'AMZAA',
   hiddenMetadataUri: 'ipfs://Qmf7uYcpe8NmzUeLRK1Wkv6tfL7pMc2enPQc63BJEoTLKN/hidden.json',
   maxSupply: 10,
   whitelistSale: {
