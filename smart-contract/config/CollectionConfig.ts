@@ -12,7 +12,7 @@ const CollectionConfig: CollectionConfigInterface = {
   contractName: 'Amazing3DFrogs',
   tokenName: 'Amazing 3D Frogs',
   tokenSymbol: 'AMZ3D',
-  hiddenMetadataUri: 'ipfs://QmYfi9rPwQamgh9rmJyKE2uiWPomKf9evVDr3KZJVdsBCB/Hidden.json',
+  hiddenMetadataUri: 'ipfs://Qmf7uYcpe8NmzUeLRK1Wkv6tfL7pMc2enPQc63BJEoTLKN/hidden.json',
   maxSupply: 10,
   whitelistSale: {
     price: 0.02,
