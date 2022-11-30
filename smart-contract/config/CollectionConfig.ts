@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.05,
     maxMintAmountPerTx: 5,
   },
-  contractAddress: null,
+  contractAddress: "0x997fC5dcdAbbc1d179c602D4858A8352E385efc2",
   marketplaceIdentifier: 'amazing-3d-frogs',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
