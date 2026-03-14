@@ -47,17 +47,4 @@ jobs:
 
       - name: Build DAPP
         run: cd ./minting-dapp && yarn build
-```
 
-**What changed:**
-- `actions/checkout@v2` → `actions/checkout@v4`
-- `actions/setup-node@v2` → `actions/setup-node@v4`
-- Added `node-version: '20'` to both setup-node steps
-
----
-
-**Step 1 — Open the workflow file in VS Code**
-
-Make sure you're in the `erc721-nft-test` folder, then open:
-```
-.github/workflows/dapp-build.yaml
